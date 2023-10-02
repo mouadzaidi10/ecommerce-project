@@ -13,6 +13,7 @@ import java.util.Date;
 @Data
 public class Product {
 
+    // primary id
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
